@@ -411,7 +411,7 @@ td {
     padding-top: 20px;
     box-sizing: border-box;
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 .related-searches-flex {
@@ -422,7 +422,8 @@ td {
     display: flex;
     flex: 1;
     flex-direction: column;
-    flexg: 10px;
+    padding-right: 10px;
+    grid-gap: 5px;
 }
 
 .related-searches-title {
