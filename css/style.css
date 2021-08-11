@@ -19,7 +19,7 @@ td {
 
 .header {
     display: grid;
-    grid-template-columns: 160px 692px auto 190px;
+    grid-template-columns: 160px 692px auto 290px;
     grid-template-rows: 45px 57px;
     grid-template-areas: "logo search. account" ". search-settings . .";
     margin-top: 20px;
@@ -86,6 +86,7 @@ td {
 
 .account {
     grid-area: account;
+    flex-direction: row;
     justify-self: end;
     align-self: center;
     margin-right: 28px;
@@ -206,6 +207,21 @@ td {
     margin-left: 180px;
     width: 654px;
     padding: 14px 0 0;
+    /* display: flex;
+    grid-template-columns: 654px 300px;
+    flex-direction: row;
+    justify-content: space-between; */
+}
+
+.search-about {
+    line-height: 1.58;
+    margin: 6px 0 0 1px;
+    border: 1px solid #dfe1e5;
+    /* overflow: hidden; */
+    box-shadow: none;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
 }
 
 
@@ -223,6 +239,12 @@ td {
     display: inline-block;
     width: 600px;
     margin-bottom: 30px;
+}
+
+.first-result-item {
+    display: flex;
+    grid-template-columns: auto 50px;
+    flex-direction: row;
 }
 
 .result-a {
