@@ -11,9 +11,6 @@ git clone https://github.com/fom78/google-homepage.git
 
 - Or dowload from zip.
 
-
-## Requisitos
-
 <h1 align="center">Screenshots</h1>
 
 <h5 align="left">Search the odin project with google account logged in</h5>
